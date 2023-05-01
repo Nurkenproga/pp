@@ -32,7 +32,7 @@ songs = [
         pygame.mixer.Sound("Music//New-West-Those-Eyes-Lyrics-sped-up-cause-all-of-the-small-th.mp3")
 ]
 
-text = pygame.font.Font('images//text_type.ttf', 80)
+#text = pygame.font.Font('images//text_type.ttf', 80)
 player = False
 song = True
 clock = pygame.time.Clock()

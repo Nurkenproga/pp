@@ -26,10 +26,18 @@ while not done:
         if pressed[pygame.K_LEFT]: x -= 20
         if pressed[pygame.K_RIGHT]: x += 20
         
-        if y > 465: y = 465
-        if x > 765: x = 765
-        if x < 35: x = 35
-        if y < 35: y = 35
+        if y > 465:
+                y = 465
+                red = (0, 255, 0)
+        if x > 765:
+                red = (0, 255, 0)
+                x = 765
+        if x < 35:
+                red = (0, 255, 0)
+                x = 35
+        if y < 35:
+                red = (0, 255, 0)
+                y = 35
   
         screen.fill((255, 255, 255))
         pygame.draw.circle(screen, red, (x, y), (25), (0))

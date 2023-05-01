@@ -16,8 +16,8 @@ while True:
     sec = datetime.datetime.now().second
     min = datetime.datetime.now().minute
     
-    angle = -(min * 6)
-    angle1 = -(sec * 6)
+    angle = (min * 6)
+    angle1 = (sec * 6)
     
     screen.blit(bg, (0,0))
     rotated_image_1 = pygame.transform.rotate(arm1, angle)
